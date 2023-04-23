@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PoubelleListe_Controleur">
+   <children>
+      <TableView fx:id="poubelleTableView" layoutX="2.0" layoutY="14.0" onMouseClicked="#onLigneSelectionnee" prefHeight="326.0" prefWidth="917.0">
+        <columns>
+            <TableColumn fx:id="centreNomCol" prefWidth="75.0" text="Centre de tri" />
+          <TableColumn fx:id="idCol" prefWidth="44.800018310546875" text="ID" />
+          <TableColumn fx:id="adresseCol" editable="false" minWidth="0.0" prefWidth="113.5999526977539" text="Adresse" />
+            <TableColumn fx:id="capaciteCol" prefWidth="47.20001220703125" text="Capacite" />
+            <TableColumn fx:id="quantitePMCol" prefWidth="107.20001220703125" text="n_metaux" />
+            <TableColumn fx:id="quantitePVCol" prefWidth="75.0" text="n_verre" />
+            <TableColumn fx:id="quantitePPPCol" prefWidth="75.0" text="n_papier" />
+            <TableColumn fx:id="quantitePPCol" prefWidth="114.40008544921875" text="n_plastique" />
+            <TableColumn fx:id="quantitePCCol" prefWidth="55.19989013671875" text="n_carton" />
+            <TableColumn fx:id="quantitePPACol" prefWidth="56.0" text="n_autre" />
+            <TableColumn fx:id="typeCol" prefWidth="75.0" text="Type" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

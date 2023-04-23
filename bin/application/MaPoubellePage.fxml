@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MaPoubelle_Controleur">
+   <children>
+      <Button layoutX="75.0" layoutY="110.0" mnemonicParsing="false" onAction="#Papier" text="Papier" />
+      <Button layoutX="274.0" layoutY="110.0" mnemonicParsing="false" onAction="#Plastique" text="Plastique" />
+      <Button layoutX="455.0" layoutY="110.0" mnemonicParsing="false" onAction="#Carton" text="Carton" />
+      <Button layoutX="75.0" layoutY="224.0" mnemonicParsing="false" onAction="#Verre" text="Verre" />
+      <Button layoutX="274.0" layoutY="224.0" mnemonicParsing="false" onAction="#Metaux" text="Metaux" />
+      <Button layoutX="455.0" layoutY="224.0" mnemonicParsing="false" onAction="#Autre" text="Autre" />
+      <Button layoutX="280.0" layoutY="316.0" mnemonicParsing="false" onAction="#terminer" text="Terminer" />
+      <Label fx:id="npapier" layoutX="75.0" layoutY="144.0" prefHeight="18.0" prefWidth="22.0" />
+      <Label fx:id="nplastique" layoutX="274.0" layoutY="144.0" prefHeight="18.0" prefWidth="22.0" />
+      <Label fx:id="ncarton" layoutX="455.0" layoutY="144.0" prefHeight="18.0" prefWidth="22.0" />
+      <Label fx:id="nverre" layoutX="75.0" layoutY="260.0" prefHeight="18.0" prefWidth="22.0" />
+      <Label fx:id="nmetaux" layoutX="274.0" layoutY="260.0" prefHeight="18.0" prefWidth="22.0" />
+      <Label fx:id="nautre" layoutX="455.0" layoutY="260.0" prefHeight="18.0" prefWidth="22.0" />
+      <Label layoutX="120.0" layoutY="144.0" text="ajouté(s)" />
+      <Label layoutX="120.0" layoutY="260.0" text="ajouté(s)" />
+      <Label layoutX="315.0" layoutY="144.0" text="ajouté(s)" />
+      <Label layoutX="315.0" layoutY="260.0" text="ajouté(s)" />
+      <Label layoutX="494.0" layoutY="144.0" text="ajouté(s)" />
+      <Label layoutX="494.0" layoutY="260.0" text="ajouté(s)" />
+   </children>
+</AnchorPane>

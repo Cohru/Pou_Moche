@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HistoriqueListe_Controleur">
+   <children>
+      <TableView fx:id="HistoTable" layoutX="8.0" layoutY="42.0" prefHeight="200.0" prefWidth="760.0">
+        <columns>
+          <TableColumn fx:id="idPoubCol" prefWidth="75.0" text="ID_Poubelle" />
+          <TableColumn fx:id="idClientCol" prefWidth="75.0" text="ID_Client" />
+            <TableColumn fx:id="dateC" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="quantitePPCol" prefWidth="75.0" text="n_plastique" />
+            <TableColumn fx:id="quantitePMCol" prefWidth="75.0" text="n_metaux" />
+            <TableColumn fx:id="quantitePVCol" prefWidth="75.0" text="n_verre" />
+            <TableColumn fx:id="quantitePPACol" prefWidth="75.0" text="n_autre" />
+            <TableColumn fx:id="quantitePCCol" prefWidth="75.0" text="n_carton" />
+            <TableColumn fx:id="quantitePPPCol" prefWidth="75.0" text="n_papier" />
+            <TableColumn fx:id="fideliteCol" prefWidth="75.0" text="fidelite" />
+        </columns>
+      </TableView>
+      <Button layoutX="316.0" layoutY="307.0" mnemonicParsing="false" onAction="#Retour" text="Retour" />
+   </children>
+</AnchorPane>

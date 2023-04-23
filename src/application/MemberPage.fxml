@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Membre_Controleur">
+   <children>
+      <Button layoutX="92.0" layoutY="94.0" mnemonicParsing="false" onAction="#MaPoubelle" text="poubelle" />
+      <Button layoutX="231.0" layoutY="94.0" mnemonicParsing="false" onAction="#Histo" text="historique" />
+      <Label layoutX="440.0" layoutY="29.0" text="Nom" />
+      <Label layoutX="425.0" layoutY="55.0" text="Prenom" />
+      <Label layoutX="357.0" layoutY="73.0" text="Numéro d'identifiant" />
+      <Label fx:id="nom_label" layoutX="492.0" layoutY="29.0" prefHeight="18.0" prefWidth="79.0" />
+      <Label fx:id="prenom_label" layoutX="492.0" layoutY="55.0" prefHeight="18.0" prefWidth="79.0" />
+      <Label fx:id="id_label" layoutX="492.0" layoutY="73.0" prefHeight="18.0" prefWidth="79.0" />
+      <Button layoutX="97.0" layoutY="245.0" mnemonicParsing="false" onAction="#ListeMagasin" text="Magasin Partenaire" />
+      <Button layoutX="357.0" layoutY="246.0" mnemonicParsing="false" onAction="#ConversionPts" text="Convertir mes points" />
+      <Button layoutX="414.0" layoutY="94.0" mnemonicParsing="false" onAction="#Liste7" text="Liste des poubelles" />
+   </children>
+</AnchorPane>
